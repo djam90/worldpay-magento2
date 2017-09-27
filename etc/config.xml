@@ -83,5 +83,12 @@
           <model>Worldpay\Payments\Model\Methods\Yandex</model>
         </worldpay_payments_yandex>
     </payment>
+    <dev>
+      <js>
+        <minify_exclude>
+          cdn.worldpay.com
+        </minify_exclude>
+      </js>
+    </dev>
   </default>
 </config>
